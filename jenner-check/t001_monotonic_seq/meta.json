@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_monotonic_seq",
+  "source_file": "utl-add-sequence-numbers-to-a-sas-table-with-and-without-sas-monotonic.sas",
+  "source_blob_sha": "ddec351006569300df05fa7d350ff4ea4a5dbf48",
+  "source_commit": "f4152b5aef864d1eaced101f1fd19eece9afa73d",
+  "notes": "PROC SQL monotonic() sequence-numbering technique from the repo's INPUT|PROCESS comment block. The sd1 libname (originally d:/sd1) was replaced with a WORK dataset built from the 9-row cards4 sample shown in the README; the monotonic() SQL is unchanged. Output SEQ 1..9 matches the README's documented result."
+}
